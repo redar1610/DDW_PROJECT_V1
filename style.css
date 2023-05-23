@@ -1,0 +1,121 @@
+div{
+    font-family: 'Raleway', sans-serif;
+}
+body{
+    background-color: rgb(135, 196, 231);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.contenido{
+    position:relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: white;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 35px rgba(0, 0, 0, 0.404);
+}
+.contenido .left_side{
+    position: relative;
+    background:rgb(31, 63, 151);
+    padding: 40px;
+}
+.Texto{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid whitesmoke;
+}
+.Texto .Img{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 1%;
+    overflow: hidden;
+}
+.Texto .Img img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.left_side .Texto h2{
+    color: white;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+.left_side .Texto h2 span{
+    font-size: 0.8em;
+    font-weight: 300;
+}
+.left_side .InfoContacto{
+    padding-top: 40px;
+}
+.left_side .Titulos{
+    color:white;
+    text-transform: uppercase;
+    font-weight: 620;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.left_side .InfoContacto ul{
+    position: relative;
+}
+.left_side .InfoContacto ul li{
+    position: relative  ;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+    color:white;
+}
+.left_side .InfoContacto ul li .icono{
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color:aqua;
+}
+.left_side .InfoContacto ul li .Texto{
+    color:white 
+}
+
+.contenido .right_side{
+    position: relative;
+    background: white;
+    padding: 40px;
+}
+.about{
+    margin-bottom: 50px;
+}
+.titulo_2{
+    color:rgb(31, 63, 151);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+.Intereses{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.Intereses ul li{
+    list-style: none;
+    color: #333;
+    font-weight: 500;
+    margin: 10px 0;
+}
+.Intereses ul li .fa{
+    color:aqua;
+    font-size: 18px;
+    width: 20px;
+}
